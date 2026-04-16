@@ -178,7 +178,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      house-removebg-preview_0: 3359465506682733134
+      house-removebg-preview_1: 6247891692425304844
+      house-removebg-preview_2: 2066559447541088056
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
