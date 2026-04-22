@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Scenes/Certificate.unity
     guid: eda710c851a3b7d4fbe1c0f268d758b5
   - enabled: 1
+    path: Assets/Scenes/Scenes/Settings.unity
+    guid: 882033e522077f949a86992b4e1075de
+  - enabled: 1
     path: Assets/Scenes/Scenes/Game Over Screen.unity
     guid: e20901b5d2a2c7e41a295601b678adf9
   - enabled: 1
