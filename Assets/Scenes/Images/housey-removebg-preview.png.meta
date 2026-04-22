@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      housey-removebg-preview_0: 4589114972334892531
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
