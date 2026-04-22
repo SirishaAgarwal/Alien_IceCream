@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 28c58304c69d523409d9c567438e423a
+guid: 07dc8f4cfef9d774fb47b296f5cf8d4a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3359465506682733134
-    second: house-removebg-preview_0
-  - first:
-      213: 6247891692425304844
-    second: house-removebg-preview_1
-  - first:
-      213: 2066559447541088056
-    second: house-removebg-preview_2
+      213: -1009726704695533442
+    second: Screenshot_2026-04-06_112017-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,64 +100,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: house-removebg-preview_0
+      name: Screenshot_2026-04-06_112017-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 46
-        y: 66
-        width: 124
-        height: 119
+        x: 15
+        y: 49
+        width: 251
+        height: 346
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e42800144183f9e20800000000000000
-      internalID: 3359465506682733134
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: house-removebg-preview_1
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 1
-        width: 72
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c0bdf1a3468f4b650800000000000000
-      internalID: 6247891692425304844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: house-removebg-preview_2
-      rect:
-        serializedVersion: 2
-        x: 114
-        y: 2
-        width: 60
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 83ff9e15ed4edac10800000000000000
-      internalID: 2066559447541088056
+      spriteID: e70a56e69eabcf1f0800000000000000
+      internalID: -1009726704695533442
       vertices: []
       indices: 
       edges: []
@@ -171,7 +123,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: fc571636f49eb7d4ab4bc8d8c0070ae7
     internalID: 0
     vertices: []
     indices: 
@@ -179,9 +131,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      house-removebg-preview_0: 3359465506682733134
-      house-removebg-preview_1: 6247891692425304844
-      house-removebg-preview_2: 2066559447541088056
+      Screenshot_2026-04-06_112017-removebg-preview_0: -1009726704695533442
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
