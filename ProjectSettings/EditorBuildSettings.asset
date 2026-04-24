@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Scenes/CorrectToppingsStation.unity
+    guid: 3cd6e60610fd31f48bf101673f10cee9
+  - enabled: 1
     path: Assets/Scenes/Scenes/HomeScreen.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -19,6 +22,9 @@ EditorBuildSettings:
     guid: e20901b5d2a2c7e41a295601b678adf9
   - enabled: 1
     path: Assets/Scenes/Scenes/Credits.unity
+    guid: 50a6a359acd9c6c4cadcb20120d4aa6c
+  - enabled: 1
+    path: Assets/Scenes/Scenes/EnterName.unity
     guid: 990c64782b0246a45b273ef1bd0357fc
   - enabled: 1
     path: Assets/Scenes/Scenes/ToppingStation.unity
