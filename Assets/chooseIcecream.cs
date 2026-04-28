@@ -31,7 +31,7 @@ public class chooseIcecream : MonoBehaviour
             targetSpriteRenderer.sortingOrder += 1;
             targetSpriteRenderer.transform.position += new Vector3 (40, 10, 0);
             targetSpriteRenderer.enabled = true;
-            targetSpriteRenderer.SetActive(false);
+            //targetSpriteRenderer.SetActive(false);
             count++;
         }
         else
