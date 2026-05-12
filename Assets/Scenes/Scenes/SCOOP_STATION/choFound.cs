@@ -1,5 +1,5 @@
 using UnityEngine;
-public class choTop : MonoBehaviour
+public class choFound : MonoBehaviour
 {
     public SpriteRenderer targetSpriteRenderer1;
     public static int count = 0;
@@ -16,4 +16,3 @@ public class choTop : MonoBehaviour
         count++;
     }
 }
-

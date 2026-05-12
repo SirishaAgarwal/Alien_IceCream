@@ -17,7 +17,7 @@ public class GlobalClickCounter : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             totalClicks++;
-            Debug.Log("Total Clicks: " + totalClicks);
+            //Debug.Log("Total Clicks: " + totalClicks);
         }
     }
 }
