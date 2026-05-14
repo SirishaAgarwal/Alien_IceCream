@@ -13,20 +13,20 @@ public class chooseIcecream : MonoBehaviour
     {
             targetSpriteRenderer.enabled = false;
     }
-    bool wannaShow = true;
+    //bool wannaShow = true;
    void OnMouseDown()
     {
         Debug.Log("sprite clickedd!");
-        if (targetSpriteRenderer != null && count==0)
+        if (targetSpriteRenderer != null && GlobalClickCounter.numClicks()==0)
         {
             targetSpriteRenderer.transform.position += new Vector3(40, -30, 0);
             targetSpriteRenderer.enabled = true;
             count++;
-            Debug.Log(count);
+            Debug.Log(GlobalClickCounter.numClicks());
             // Optional: Toggle it instead (on if off, off if on)
             // targetSpriteRenderer.enabled = !targetSpriteRenderer.enabled;
         }
-        else if (count == 1)
+        else if (GlobalClickCounter.numClicks() == 1)
         {
             targetSpriteRenderer.sortingOrder += 1;
             targetSpriteRenderer.transform.position += new Vector3 (40, 10, 0);
@@ -34,13 +34,17 @@ public class chooseIcecream : MonoBehaviour
             //targetSpriteRenderer.SetActive(false);
             count++;
         }
-        else
+        else if (GlobalClickCounter.numClicks() == 2)
         {
             targetSpriteRenderer.sortingOrder += 2;
             targetSpriteRenderer.transform.position += new Vector3(40, 50, 0);
             targetSpriteRenderer.enabled = true;
             count++;
             Debug.Log(count);
+        }
+        else
+        {
+            targetSpriteRenderer.enabled = false;
         }
     }
 }

@@ -22,4 +22,8 @@ public class GlobalClickCounter : MonoBehaviour
             Debug.Log("Total Clicks: " + totalClicks);
         }
     }
+    public static int numClicks()
+    {
+        return totalClicks;
+    }
 }
