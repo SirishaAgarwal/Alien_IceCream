@@ -9,8 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Scenes/HomeScreen.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/Scenes/revisingfoundation.unity
+    guid: 6511e31dbb6a74a809e7e4709204d2b1
+  - enabled: 1
     path: Assets/Scenes/Scenes/Customer.unity
     guid: 459d132b9b542d444a956736054a8820
+  - enabled: 1
+    path: Assets/Scenes/Scenes/revisingtopping.unity
+    guid: a17bb2d6ca9e24c298f77b811ad462f2
+  - enabled: 1
+    path: Assets/Scenes/Scenes/revisingscoop.unity
+    guid: db94e731ab4b84aaf81ea7f4b52b22a8
   - enabled: 1
     path: Assets/Scenes/Scenes/Certificate.unity
     guid: eda710c851a3b7d4fbe1c0f268d758b5
