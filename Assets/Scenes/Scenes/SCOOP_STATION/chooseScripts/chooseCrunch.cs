@@ -20,18 +20,18 @@ public class chooseCrunch : MonoBehaviour
    void OnMouseDown()
     {
         Debug.Log("sprite clickedd!");
-        if (GlobalClickCounter.totalClicks==0)
+        if (GlobalClickCounter.totalClicks==24)
         {
             targetSpriteRenderer1.enabled = true;
             count++;
             Debug.Log(count);
         }
-        else if (GlobalClickCounter.totalClicks==12)
+        else if (GlobalClickCounter.totalClicks==36)
         {
             targetSpriteRenderer2.enabled = true;
             count++;
         }
-        else if (GlobalClickCounter.totalClicks==24)
+        else if (GlobalClickCounter.totalClicks==48)
         {
             targetSpriteRenderer3.enabled = true;
             count++;

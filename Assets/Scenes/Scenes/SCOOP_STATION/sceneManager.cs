@@ -5,8 +5,9 @@ using UnityEngine;
 public class sceneManager : MonoBehaviour
 {
     // Start is called before the first frame update
-   public void LoadNextLevel()
+   public static void LoadNextLevel()
     {
+        Debug.Log("scene");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
